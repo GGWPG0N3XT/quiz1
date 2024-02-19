@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Question from "./Question.svelte";
+</script>
+<h1>Kviz</h1>
+
+<Question
+    question = "Kad je bio kosovski boj?"
+    correctAnswer = {1389}
+    incorrectAnswers = {[1989,1835,1456]}/>
